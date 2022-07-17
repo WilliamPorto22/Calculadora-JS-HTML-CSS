@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,37 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <h1>JavaScript</h1>
-    <button class="botao" onclick="adicionaNumeros(1)">1</button>
-    <button class="botao" onclick="adicionaNumeros(2)">2</button>
-    <button class="botao" onclick="adicionaNumeros(3)">3</button>
+    <Section>
+        <input type=text required name='txtstart' id='txtstart' value=''>
+        <div>
+            <button class="botao" onclick="guardaValor(1)">1</button>
+            <button class="botao" onclick="guardaValor(2)">2</button>
+            <button class="botao" onclick="guardaValor(3)">3</button>
+            <button class="botao2" onclick="guardaValorOp('+')">+</button>
+        </div>
+        <div>
+            <button class="botao" onclick="guardaValor(4)">4</button>
+            <button class="botao" onclick="guardaValor(5)">5</button>
+            <button class="botao" onclick="guardaValor(6)">6</button>
+            <button class="botao2" onclick="guardaValorOp('*')">x</button>
 
-    <button class="botao" onclick="logarNoConsole()">logar no console</button>
-    <button class="botao" onclick="rodaLoop()">Rodar o loop</button>
-    
+        </div>
+        <div>
+            <button class="botao" onclick="guardaValor(7)">7</button>
+            <button class="botao" onclick="guardaValor(8)">8</button>
+            <button class="botao" onclick="guardaValor(9)">9</button>
+            <button class="botao2" onclick="guardaValorOp('/')">/</button>
+        </div>
+
+        <button class="botao3" onclick="calcula()">=</button>
+
+    </Section>
     <script src="script.js"></script>
 
 
 </body>
+
 </html>
