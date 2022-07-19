@@ -3,6 +3,7 @@ let operacao = ""
 let resultadoOperacao = ""
 
 function guardaValor(val ) {
+    let valorTotal
     valores.push(val)
 }
 
