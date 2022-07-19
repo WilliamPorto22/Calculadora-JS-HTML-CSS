@@ -8,19 +8,20 @@ body {
 }
 section{
     border-radius: 10px;
-    padding: 19px;
+    padding: 21px 12px 21px 21px;
     background-color: #4b4949;
     height: auto;
-    width: 31%;
+    width: 30vw;
     display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: column;
 }
+
 input{
     margin-bottom: 6px;
     padding: 2px 0px 2px 0px;
-    width: 410px;
+    width: 29vw;
     height: 48px;
     font-size: medium;
     border-color: rgb(0, 0, 0);
@@ -44,7 +45,7 @@ h1{
     border-color: transparent;
     cursor: pointer;
     height: 48px;
-    width: 100px;
+    width: 7vw;
     margin-bottom: 5px;
 }
 
@@ -57,7 +58,7 @@ h1{
     border-color: transparent;
     cursor: pointer;
     height: 48px;
-    width: 100px;
+    width: 7vw;
     margin-bottom: 5px;
 }
 
@@ -70,6 +71,6 @@ h1{
     border-radius: 5px;
     border-color: transparent;
     cursor: pointer;
-    width: 415px;
+    width: 29vw;
     height: 48px;
 }
