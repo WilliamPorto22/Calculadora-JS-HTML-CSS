@@ -1,41 +1,23 @@
-let valores = []
-let operacao = ""
-let resultadoOperacao = ""
-
-function guardaValor(val ) {
-    let valorTotal
-    valores.push(val)
+function inserir(num)
+{
+    var numero = document.getElementById ('resultado') .innerHTML;
+    document.getElementById ('resultado') .innerHTML = numero + num;
 }
 
-function guardaValorOp(op) {
-    operacao = op
-    console.log(operacao);
-
+function apagar()
+{
+    document.getElementById ('resultado') .innerHTML = "";
 }
 
-function calcula() {
-    if (operacao == "+") {
-        resultadoOperacao = valores[0] + valores[1]
-        valores = []
-        console.log(resultadoOperacao);
-    }else if ( operacao == "*") {
-        resultadoOperacao = valores[0] * valores[1]
-        valores = [] 
-        console.log(resultadoOperacao);
-    }else if ( operacao == "/") {
-        resultadoOperacao = valores[0] / valores[1]
-        valores = []
-        console.log(resultadoOperacao);
-    }else if ( operacao == "-") {
-        resultadoOperacao = valores[0] / valores[1]
-        valores = []
-        console.log(resultadoOperacao);
+function calcular()
+{
+    var resultado = document.getElementById ('resultado') .innerHTML ;
+    if (resultado)
+    {
+        document.getElementById ('resultado') .innerHTML = eval (resultado);
     }
-}
-
-function total(){
-    var resultadoOperacao = Number(document.getElementById('cQtd'))
-    var operacao = 
-    document.getElementById('resultadoOperacao').value = tot
-    console.log(resultadoOperacao);
+    else
+    { 
+        document.getElementById ('resultado') .innerHTML ="Nada para calcular"
+    }
 }
