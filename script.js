@@ -26,5 +26,16 @@ function calcula() {
         resultadoOperacao = valores[0] / valores[1]
         valores = []
         console.log(resultadoOperacao);
+    }else if ( operacao == "-") {
+        resultadoOperacao = valores[0] / valores[1]
+        valores = []
+        console.log(resultadoOperacao);
     }
+}
+
+function total(){
+    var resultadoOperacao = Number(document.getElementById('cQtd'))
+    var operacao = 
+    document.getElementById('resultadoOperacao').value = tot
+    console.log(resultadoOperacao);
 }
